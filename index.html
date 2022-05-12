@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebar-option active">
+            <span class="material-symbols-outlined">
+                home
+            </span>
+            <h2>Home</h2>
+        </div>
+        <div class="sidebar-option ">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <h2>Search</h2>
+        </div>
+        <div class="sidebar-option ">
+            <span class="material-symbols-outlined">
+                tag
+            </span>
+            <h2>Explore</h2>
+        </div>
+        <div class="sidebar-option ">
+            <span class="material-symbols-outlined">
+                notifications
+            </span>
+            <h2>Notification</h2>
+        </div>
+        <div class="sidebar-option ">
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+            <h2>Messages</h2>
+        </div>
+        <div class="sidebar-option ">
+            <span class="material-symbols-outlined">
+                bookmark
+            </span>
+            <h2>Bookmarks</h2>
+        </div>
+        <div class="sidebar-option ">
+            <span class="material-symbols-outlined">
+                list
+            </span>
+            <h2>Lists</h2>
+        </div>
+        <div class="sidebar-option ">
+            <span class="material-symbols-outlined">
+                person
+            </span>
+            <h2>Profile</h2>
+        </div>
+        <div class="sidebar-option ">
+            <span class="material-symbols-outlined">
+                more_horiz
+            </span>
+            <h2>More</h2>
+        </div>
+        <button class="sidebar-tweet">Tweet</button>
+    </div>
+
+
+    <!-- feed -->
+    <div class="feed">
+        <div class="feed-header">
+            <h2>Home</h2>
+        </div>
+        <div class="tweet-box">
+            <form>
+                <div class="tweet-box-input">
+                    <img src="./img/gupta.png" alt="">
+                    <input type="text" placeholder="What's happening?">
+                </div>
+                <div class="toolbar-wrapper">
+                    <span class="material-symbols-outlined">
+                        perm_media
+                    </span>
+                    <span class="material-symbols-outlined">
+                        gif_box
+                    </span>
+                    <span class="material-symbols-outlined">
+                        align_horizontal_left
+                    </span>
+                    <span class="material-symbols-outlined">
+                        mood
+                    </span>
+                    <span class="material-symbols-outlined">
+                        calendar_month
+                    </span>
+                    <span class="material-symbols-outlined">
+                        pin_drop
+                    </span>
+                    <button class="tweet-box-tweet-btn">Tweet</button>
+                </div>
+            </form>
+        </div>
+        <div class="post">
+            <div class="post-profile">
+                <img src="./img/gupta.png" alt="">
+            </div>
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="post-header-text">
+                        <h3>Ganpat Gupta
+                            <span class="post-header-special">
+                                <span>
+                                </span>@theguptaji
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post-header-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Rerum, iure!</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                    <div class="post-footer">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                        </span>
+                        <p>9</p>
+                        <span class="material-symbols-outlined">
+                            repeat
+                        </span>
+                        <p>43</p>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        <p>99</p>
+                        <span class="material-symbols-outlined">
+                            ios_share
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-profile">
+                <img src="./img/jim.png" alt="">
+            </div>
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="post-header-text">
+                        <h3>James Halpert
+                            <span class="post-header-special">
+                                <span>
+                                </span>@JamesHalpert
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post-header-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci explicabo illo magni
+                            et
+                            reprehenderit harum maiores earum odio iste ducimus quasi debitis, eius id. Aliquid.
+                        </p>
+                    </div>
+                    <div class="post-footer">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                        </span>
+                        <p>1</p>
+                        <span class="material-symbols-outlined">
+                            repeat
+                        </span>
+                        <p>9</p>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        <p>109</p>
+                        <span class="material-symbols-outlined">
+                            ios_share
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-profile">
+                <img src="./img/pam.png" alt="">
+            </div>
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="post-header-text">
+                        <h3>Pam Beesly
+                            <span class="post-header-special">
+                                <span>
+                                </span>@PamBeesly
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post-header-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1607459726451-44808af96022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN0b2NrJTIwbWFya2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                    <div class="post-footer">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                        </span>
+                        <p>5</p>
+                        <span class="material-symbols-outlined">
+                            repeat
+                        </span>
+                        <p>26</p>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        <p>47</p>
+                        <span class="material-symbols-outlined">
+                            ios_share
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-profile">
+                <img src="./img/dwight.png" alt="">
+            </div>
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="post-header-text">
+                        <h3>Dwight Schrute
+                            <span class="post-header-special">
+                                <span>
+                                </span>@DwightSchrute
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post-header-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1454391304352-2bf4678b1a7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                    <div class="post-footer">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                        </span>
+                        <p>5</p>
+                        <span class="material-symbols-outlined">
+                            repeat
+                        </span>
+                        <p>26</p>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        <p>47</p>
+                        <span class="material-symbols-outlined">
+                            ios_share
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-profile">
+                <img src="./img/michael.png" alt="">
+            </div>
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="post-header-text">
+                        <h3>Michael Scott
+                            <span class="post-header-special">
+                                <span>
+                                </span>@MichaelScott
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post-header-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. In dolor officia modi, quam beatae est! Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Hic, repellat. </p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c29mdHdhcmUlMjBlbmdpbmVlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                    <div class="post-footer">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                        </span>
+                        <p>11</p>
+                        <span class="material-symbols-outlined">
+                            repeat
+                        </span>
+                        <p>19</p>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        <p>56</p>
+                        <span class="material-symbols-outlined">
+                            ios_share
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- widgets -->
+    <div class="widgets">
+        <div class="widgets-input">
+            <span class="material-symbols-outlined widget-search-icon">
+                search
+            </span>
+            <input type="text" placeholder="Search Twitter">
+        </div>
+        <div class="widget-container">
+            <h2>What's happening</h2><br>
+            <a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by
+                TwitterDev</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+
+</body>
+
+</html>
